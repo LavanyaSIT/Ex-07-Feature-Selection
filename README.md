@@ -2,11 +2,11 @@
 ## AIM
 To Perform the various feature selection techniques on a dataset and save the data to a file. 
 
-# Explanation
+## Explanation
 Feature selection is to find the best set of features that allows one to build useful models.
 Selecting the best features helps the model to perform well. 
 
-# ALGORITHM
+## ALGORITHM
 STEP 1:
 Read the given Data
 STEP 2:
@@ -17,7 +17,7 @@ STEP 4:
 Save the data to the file
 
 
-CODE:
+## CODE:
 ```
 from sklearn.datasets import load_boston
 boston_data=load_boston()
@@ -132,7 +132,7 @@ print("R_squared: " + str(round(r2_score(y,y_pred),3)))
 ```
 
 
-OUPUT:
+## OUPUT:
 ![1](https://github.com/LavanyaSIT/Ex-07-Feature-Selection/assets/130207418/d267d266-050d-4258-bf65-306b956d26f3)
 ![3](https://github.com/LavanyaSIT/Ex-07-Feature-Selection/assets/130207418/ae6bcca6-e4f9-4586-9d87-b571c1d99c44)
 ![5](https://github.com/LavanyaSIT/Ex-07-Feature-Selection/assets/130207418/27358d63-d445-45d1-817e-527e83f275c7)
@@ -144,5 +144,5 @@ OUPUT:
 ![14](https://github.com/LavanyaSIT/Ex-07-Feature-Selection/assets/130207418/c99aa13e-cfc0-4d63-8e7f-1ec35b8f0b31)
 
 
-RESULT:
+## RESULT:
 The various feature selection techniques has been performed on a dataset and saved the data to a file.
